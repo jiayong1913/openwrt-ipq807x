@@ -52,7 +52,7 @@ jobs:
                 make V=s
 
             - name: TAR output
-              run: tar -cvf ipq807xx-images.tar bin/targets/ipq807x/generic
+              run: tar -cvf ipq807xx-images.tar bin/targets/qualcommax/ipq807x
 
             - name: Upload artifacts
               uses: actions/upload-artifact@v3
@@ -85,5 +85,5 @@ jobs:
                 tag: "ipq807x-${{ env.NOW }}"
                 generateReleaseNotes: true
                 makeLatest: true
-                artifacts: bin/targets/ipq807x/generic/*
+                artifacts: bin/targets/qualcommax/ipq807x/*
                 token: "${{ secrets.GITHUB_TOKEN }}"
