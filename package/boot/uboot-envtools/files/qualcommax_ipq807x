@@ -38,6 +38,7 @@ linksys,mx5300)
 	;;
 redmi,ax6|\
 xiaomi,ax3600|\
+xiaomi,ax3600-stock|\
 xiaomi,ax9000)
 	idx="$(find_mtd_index 0:appsblenv)"
 	[ -n "$idx" ] && \
