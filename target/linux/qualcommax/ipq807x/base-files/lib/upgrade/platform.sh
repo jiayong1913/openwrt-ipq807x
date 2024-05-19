@@ -99,6 +99,7 @@ platform_do_upgrade() {
 		mmc_do_upgrade "$1"
 		;;
 	redmi,ax6|\
+ 	redmi,ax6-stock|\
 	xiaomi,ax3600|\
 	xiaomi,ax9000)
 		# Make sure that UART is enabled
