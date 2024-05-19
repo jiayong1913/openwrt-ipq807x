@@ -33,7 +33,8 @@ netgear,wax630)
 	ucidef_set_led_netdev "lan1" "LAN1" "lan1:green" "lan1"
 	ucidef_set_led_netdev "lan2" "LAN2" "lan2:green" "lan2"
 	;;
-redmi,ax6)
+redmi,ax6\
+redmi,ax6-stock)
 	ucidef_set_led_netdev "wan" "WAN" "blue:network" "wan"
 	;;
 xiaomi,ax3600\
